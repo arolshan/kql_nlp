@@ -1,0 +1,16 @@
+DATA_COMPRESSED_URI = "https://nlpdatastorage.blob.core.windows.net/data-compressed/data.zip"
+DATA_AST_COMPRESSED_URI = "https://nlpdatastorage.blob.core.windows.net/data-compressed/data_ast.zip"
+QUERY = 'query'
+DURATION = 'duration'
+DURATION_INTERVAL = 'durationInterval'
+DURATION_BUCKET = 'durationBucket'
+CONTAINER = 'container'
+BUCKET_STRATEGY_UNIFORM = 'uniform'
+BUCKET_STRATEGY_KMEANS = 'kmeans'
+MAX_TOKENS_LEN = 512
+DL_KQL_QUERY = 'kql_query'
+DL_INPUT_IDS = 'input_ids'
+DL_ATTN_MASK = 'attention_mask'
+DL_BUCKETS = 'buckets'
+DL_RAW_DURATIONS = 'raw_durations'
+DL_CONTAINERS = 'containers'

@@ -1,0 +1,33 @@
+name: kql_nlp
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+  - powerai
+  - pypi
+dependencies:
+  - python=3.7.4
+  - pytorch=1.3.0
+  - ipython>=7.9
+  - numpy
+  - nltk
+  - scikit-learn
+  - cudatoolkit
+  - jupyterlab
+  - matplotlib
+  - jupyter
+  - pandas
+  - cython
+  - pytest
+  - tqdm
+  - transformers
+  - pip
+  - urllib3
+  - seaborn
+  - mistune
+  - clint
+  - pip:
+    - nbmerge
+    - pytest-xdist
+    - tokenizers
+    - torch
